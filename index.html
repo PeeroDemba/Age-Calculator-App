@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/e8e396a811.js"
+      crossorigin="anonymous"></script>
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <section class="first">
+        <form action="">
+          <div id="day">
+            <label for="dayinput">DAY</label>
+            <input type="text" id="dayinput" placeholder="DD" />
+          </div>
+          <div id="month">
+            <label for="monthinput">MONTH</label>
+            <input type="text" id="monthinput" placeholder="MM" />
+          </div>
+          <div id="year">
+            <label for="yearinput">YEAR</label>
+            <input type="text" id="yearinput" placeholder="YYYY" />
+          </div>
+        </form>
+      </section>
+
+      <section class="second">
+        <div class="image">
+          <p><i id="button" class="fa-solid fa-arrow-down fa-2xl"></i></p>
+        </div>
+        <div class="output">
+          <p><span id="yearoutput">--</span><span>years</span></p>
+          <p><span id="monthoutput">--</span><span>months</span></p>
+          <p><span id="dayoutput">--</span><span>days</span></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jonathan-Hart Peter T.</a>.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
